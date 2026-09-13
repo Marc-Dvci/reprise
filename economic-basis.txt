@@ -1,0 +1,84 @@
+# Economic basis and Earth demonstrator estimate
+
+9 September 2026. Technical companion evidence for book pages 9, 13 and 14; tariff research retained from 8 September. All amounts are EUR before applicable tax. This is a concept-stage estimate built from public tariffs and explicit LVW assumptions, not a supplier offer or a funded programme. The entrant confirmed that no test results, quotations, funding or operator commitment are available.
+
+## What the first budget buys
+
+The first Earth Lab experiment (P0-A in the engineering records) develops local coating and repeated renewal on small film samples and packages. It compares the same film batch coated before transport exposures with film coated after them, using three packaging levels and three independent batches. A third route tests retained-substrate renewal. The next experimental step is a moving film and a full reflector, with a dedicated budget and facility plan.
+
+The 15 deposition slots comprise three Earth-control batches, three batches coated after exposure, and nine slots for three successive renewals of three independent cohorts. Each slot reserves four facility hours, including preparation and pump-down; batch fit, polymer compatibility and turnaround require confirmation. The 18 small packages represent two new-film routes, three packaging levels and three replicates. The selected one-hour vibration exposure and sixty total drops are trial scheduling assumptions, not mission requirements.
+
+The price reserve includes 60 hours of cleanroom access in addition to equipment use. These rates come from different public providers and are cost benchmarks for a future integrated procurement package. They do not establish that one facility offers the whole process at this sum. A real quote must reconcile access fees, operator inclusion, travel and consumables. Technical-support hours exclude the TVAC operator already included in that service rate.
+
+## Itemised base estimate
+
+| Work | Quantity | Unit EUR | Total EUR | Evidence |
+|---|---:|---:|---:|---|
+| Coupon PVD | 60 h | 90.00 | 5,400.00 | [UPV](https://ntc.webs.upv.es/services/) |
+| Cleanroom access reserve | 60 h | 108.00 | 6,480.00 | [URV](https://srcit.urv.cat/en/price-list/) |
+| Technical support | 60 h | 89.00 | 5,340.00 | [URV](https://srcit.urv.cat/en/price-list/) |
+| Optical microscopy | 12 h | 60.00 | 720.00 | [URV](https://srcit.urv.cat/en/price-list/) |
+| Reflectance/scatter calibration | 1 allowance | 2,000.00 | 2,000.00 | LVW planning allowance |
+| TVAC storage screen | 24 staffed h | 110.00 | 2,640.00 | [BIRA](https://engineering.aeronomie.be/facilities/clean-room-with-thermal-vacuum-chamber) |
+| Package vibration screen | 18 h | 50.00 | 900.00 | [PACKLAB](https://ppibg.com/en/packlab-2/) |
+| Package drop screen | 6 10-drop group | 40.00 | 240.00 | [PACKLAB](https://ppibg.com/en/packlab-2/) |
+| Protocol, data and review | 24 h | 103.82 | 2,491.68 | [URV](https://srcit.urv.cat/en/price-list/) |
+| Film, fixtures and consumables | 1 allowance | 2,500.00 | 2,500.00 | LVW planning allowance |
+| Transfers and coordination | 1 allowance | 1,000.00 | 1,000.00 | LVW planning allowance |
+
+Base subtotal: **EUR 29,711.68**. A separately declared 30% contingency adds **EUR 8,913.50**, for **EUR 38,625.18 before tax**. Book rows round to whole euros; its headline rounds to EUR 38.6k.
+
+Optical microscopy is budgeted for visible defect mapping. The separate EUR 2,000 optics allowance is for calibrated spectral reflectance, scatter and thickness verification access; no compatible supplier quote has been obtained. The EUR 2,500 material/fixture allowance covers small coupons and holders, feedstock, package stock and a small clamp fixture. EUR 1,000 allows for transfer and coordination. These three values are LVW assumptions, not online prices. Specific compatible material offers were not established from the public listings reviewed.
+
+## Sensitivity and funding
+
+| Case | Tariff-based hours/quantities | Allowances | Contingency | Total before tax |
+|---|---:|---:|---:|---:|
+| Low | 0.75 × base | 0.80 × base | 20% | EUR 27,070.51 |
+| Base | 1.00 × base | 1.00 × base | 30% | EUR 38,625.18 |
+| High | 1.50 × base | 1.50 × base | 40% | EUR 62,394.53 |
+
+The resulting EUR 27.1–62.4k range is a workload and allowance sensitivity, not a statistical confidence interval or a ceiling. Variations represent setup, processing and service effort; the three independent batches and their packaging comparisons remain a minimum experimental requirement. Quantity reductions must come from shorter processing or shared service time, not deleting replicates.
+
+Confirmed funding is EUR 0, including in-kind support. If the potential EUR 7,000 competition prize were awarded and allocated entirely to P0-A, the base funding gap would still be EUR 31,625.18 plus applicable taxes. No contribution, fee discount, institutional eligibility or partner commitment is assumed. Procurement begins only after the required cash/in-kind resources and facility access are agreed.
+
+## Published tariff evidence and capability limits
+
+- [UPV published service page](https://ntc.webs.upv.es/services/): External-company PVD e-beam evaporation of Al: EUR 90/h. Individual service tariff, not a research-project quotation. No confirmed coupon or polymer acceptance.
+- [URV published service page](https://srcit.urv.cat/en/price-list/): 2026 EXT tariff: cleanroom MTN-MSB03 EUR 108/h; technician MTN-TECINS EUR 89/h; microscopy MTN-MAI21 EUR 60/h; report MTN-INF01 EUR 103.82/h. Taxes additional.
+- [BIRA published service page](https://engineering.aeronomie.be/facilities/clean-room-with-thermal-vacuum-chamber): Working-day TVAC/cleanroom with operator EUR 110/h. 60 x 80 x 60 cm useful envelope, -55 to +60 C. Initial storage screen only; not deposition or lunar qualification. Tariff date not stated.
+- [PACKLAB published service page](https://ppibg.com/en/packlab-2/): Packaging vibration EUR 50/h; 10-drop group EUR 40; VAT excluded. Initial terrestrial package screen, not launch qualification. Tariff date not stated.
+
+Sources were inspected through public web results/pages on 8 September 2026. URV identifies its price list as 2026. A current page or search-index record is not an availability confirmation. UPV restricts its tariff table to individual services; custom R&D needs a quote. The budget uses these prices as an order-of-magnitude service benchmark, not as a claim that UPV accepts the proposed specimens or offers a roll coater.
+
+BIRA storage exposure is limited to the stated chamber envelope and -55 to +60 °C range. This is neither the lunar environment nor a qualified lifetime cycle. Packlab rates concern terrestrial packaging, not a mission-specific launch shock/vibration spectrum. Neither service establishes the final lunar packaging saving. An operator and competent test provider must agree a later mission-relevant protocol.
+
+## Follow-on work and decision criteria
+
+P0-B requires its own quotations for a moving web at least 250 mm wide, qualified hood capture/escape measurements, automated handling, full 5 × 10 m assembly, gravity treatment and installed optical testing. Larger fixtures, extended thermal cycling, pressure/structure qualification, the hosted lunar experiment and all flight hardware are outside the P0-A estimate. No whole-programme price is asserted.
+
+Proposed screening targets are 100 nm ±10% thickness; solar-weighted reflectance at least 0.85 and no more than 0.02 different from the paired Earth control; installed receiver interception at least 95% of that control under the same geometry; and at least 99% capture of material missing the film, together with a neighbour-specific boundary deposition limit. These are LVW targets for operator agreement, not standards or achieved results. Coupon tests cannot close installed-optics or full-hood gates. Three initial renewal cycles screen damage accumulation; they do not certify a ten-year life.
+
+The development sequence joins Earth Lab, lunar pilot and shared workshop. The opportunity is to apply a fresh optical coating close to use, renew sound film and share equipment between maintenance tasks. Repeated material use and pooling of specialist skills are the value mechanisms to quantify. Human work is a central programme: diagnose unfamiliar wear, rebuild removable machine mechanisms and approve return to service.
+
+The permanent-presence ambition is settlement-scale. The current crew workplace is sized for two visiting specialists; residence would pair it with sleeping quarters, continuous life support and regular settlement resupply. The existing visiting-mission calculations remain the engineering basis.
+
+## Mass comparison and accounting boundary
+
+At 25 µm polyimide and 100 nm aluminium, one 50 m² skin contains 1.7885 kg of film. The ten-year 30,000 m² reference requires 1,073.1 kg before packaging, frames and reinforcement. Local coating imports its aluminium feedstock; its 8.1 kg deposited layer is not avoided launch mass. At illustrative 60% source utilisation, 13.5 kg must be evaporated before rejects and other losses. Missing-film mass is 5.4 kg: 99% capture of that fraction permits 54 g escape, not 81 g. No feedstock recycling is credited without qualification.
+
+For equivalent service life and accepted area A, the screening condition is A × net recurring imported-mass saving + one-time reserve-stock saving > additional fixed hardware mass. Include dedicated utilities, installation, fixed spares, growth and hardware replacements. Count recurring consumables/rejects once and reserve stock once; cancel only infrastructure independently required under both alternatives. Shared capacity has a cost and requires an independently funded use case.
+
+The current 17,304.8 kg P2 estimate requires 576.8 g/m² at 30,000 m² to offset equipment mass alone. A hypothetical 2 g/m² advantage permits only 60 kg of incremental fixed hardware at that demand. A hypothetical 500 kg coater would require 250,000 m², before further costs. Neither number is evidence for a feasible lightweight machine. The existing basic D3 kit allocation is already 700 kg before growth and dedicated supporting systems.
+
+The 3,000 m²/year demand is a planning assumption, not an order. At the kinematic 900 m²/h rate it represents 3.33 nominal coating hours/year, before overheads. Do not confuse this with qualified accepted throughput, facility utilisation, energy efficiency or simultaneous deployed area. Retaining every corresponding substrate could avoid at most 1,065 kg of new polymer in this scenario before initial stock, failures and process consumables.
+
+Mass is only one screen. Compare discounted cost at equal delivered optical service and availability over ten years, including development/qualification, procurement, construction, delivery/integration, stock, utilities, energy, remote/crew labour, maintenance, replacements and end of life. Test supply-delay/downtime scenarios against a fair Earth-route spare-stock policy. Renewal requires a survival and eventual-replacement model. Do not assign an unsupported lunar EUR/kg tariff or monetary benefit to the proposal.
+
+The crew workplace (P3 in the engineering records) has a 51.9 t estimate and 135 m? gross floor area. Its initial usage study is six eight-hour visits per year, or 48 occupied facility hours; two people make this 96 person-hours. Permanent occupation is an architectural direction, not an extrapolation of those consumable stocks. The 10.5 t external allowance covers solar power, utilities and rover provision. The full concept ledger is 79.7 t, excluding excavation machinery, landers and launch integration.
+
+The book expresses the mass screen in plain language: more than approximately 17.3 t of net avoided imports over the service life would balance the robotic equipment mass alone. The complete system and a financial break-even calculation have wider boundaries. At 3,000 m?/year for ten years, the 30,000 m? service scenario equals 600 skins of 50 m?, including renewals. These are surface-service equivalents, not 600 assumed separate frames.
+
+The general cost-and-duration method is consistent with [NASA’s take-or-make analysis](https://ntrs.nasa.gov/citations/20230013555); that study does not establish LVW profitability.
+
+Reproduce the arithmetic with `python submission_2026/source/economics.py`. The supporting JSON and CSV retain quantities, source URLs, scenarios and scope boundaries.

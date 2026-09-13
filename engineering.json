@@ -1,0 +1,176 @@
+{
+  "version": "LVW-SUB-2",
+  "evidence": "Concept sizing with declared allocations; physical qualification is not replaced by calculation.",
+  "structure": {
+    "rib_section_m": [
+      0.25,
+      0.35,
+      0.01
+    ],
+    "rib_spacing_m": 1.5,
+    "rib_count": 21,
+    "rib_mass_kg": 12291.472818290806,
+    "loose_regolith_volume_m3": 706.8583470577034,
+    "loose_regolith_mass_kg": 1130973.3552923256,
+    "load_factor": 1.5,
+    "allowable_stress_screen_mpa": 100,
+    "cases": {
+      "full": {
+        "max_combined_stress_mpa": 45.55971817392654,
+        "max_displacement_mm": 18.69396175136028,
+        "horizontal_tie_force_kn": 33.78896608333709,
+        "max_footing_force_kn": 70.06497087120817,
+        "max_compression_kn": 75.96930207877233
+      },
+      "half_fill": {
+        "max_combined_stress_mpa": 33.4351852018418,
+        "max_displacement_mm": 23.888679094323972,
+        "horizontal_tie_force_kn": 17.109861263466883,
+        "max_footing_force_kn": 50.29272956289749,
+        "max_compression_kn": 52.28248079350847
+      },
+      "uneven_fill": {
+        "max_combined_stress_mpa": 48.95455574771669,
+        "max_displacement_mm": 21.471768236994,
+        "horizontal_tie_force_kn": 33.788966083346864,
+        "max_footing_force_kn": 77.3640405819801,
+        "max_compression_kn": 82.69498757294403
+      }
+    },
+    "footing_area_m2": 3.08,
+    "euler_segment_buckling_kn": 37195.541552295086,
+    "boundary": "Pinned springings restrained by ties; continuous elastic rib; transverse bracing every 1.5 m. Connections, soil, settlement, panel tests and nonlinear imperfections require verification.",
+    "stress_screen_pass": true,
+    "footing_max_pressure_kpa": 25.118194994149384,
+    "tie_selected_area_mm2": 800,
+    "tie_stress_mpa": 42.23620760418358
+  },
+  "mission": {
+    "site": "Connecting Ridge / Site 01",
+    "latitude": -89.4581682349,
+    "longitude_east": 222.8789036033,
+    "coordinate_note": "Proposed graded-pad centre from the controlled terrain transform: projected (-11180, -12040) m. P01 is a separate illumination reference.",
+    "p01_latitude": -89.4539387312,
+    "p01_longitude_east": 222.7974018382,
+    "p01_distance_from_pad_m": 130.38404810405297,
+    "surface_gravity_m_s2": 1.62,
+    "nominal_crew": 0,
+    "visiting_crew": 2,
+    "shift_h": 8,
+    "additional_contingency_h": 24,
+    "design_stock_h": 32,
+    "visits_per_year": 6,
+    "reference_service_years": 10,
+    "return_vehicle": "Independently powered pressurized rover docked before crew entry",
+    "p3_status": "Later campaign facility; first lunar demonstrator is robotic"
+  },
+  "crew": {
+    "pressure_kpa": 70,
+    "oxygen_fraction": 0.3,
+    "inspired_oxygen_kpa": 19.119,
+    "co2_control_target_kpa": 0.3,
+    "co2_one_hour_ceiling_kpa": 0.399966,
+    "temperature_c": [
+      20,
+      24
+    ],
+    "relative_humidity_percent": [
+      35,
+      60
+    ],
+    "metabolic_oxygen_kg": 2.2399999999999998,
+    "stored_oxygen_kg": 4,
+    "water_drink_food_kg": 9.386666666666667,
+    "stored_water_kg": 24,
+    "dry_food_required_kg": 1.6533333333333333,
+    "stored_dry_food_kg": 3,
+    "co2_generated_kg": 2.6666666666666665,
+    "liOH_kg_per_kg_co2": 1.0883228430548297,
+    "scrubber_cartridges": 2,
+    "liOH_kg_each": 7,
+    "assumed_utilization": 0.65,
+    "co2_capacity_each_kg": 4.180744738600301,
+    "waste_water_capacity_l": 32,
+    "sealed_solid_waste_capacity_l": 12,
+    "diluent_makeup_stock_kg": 2,
+    "reference_fractional_leak_day": 0.0014,
+    "initial_gas_mass_kg": 516.4763434910984,
+    "closure": "Stored consumables for short visits; condensate and waste returned to base. No food production, ice extraction or closed-loop recovery credited."
+  },
+  "thermal": {
+    "architecture": "All 29 kW P2 and 6 kW P3 heat allocated to a controlled cold-side load; no credit for an ideal 285 K passive hood.",
+    "cold_load_kw": 35,
+    "heat_pump_cop": 2.5,
+    "compressor_kw": 14.0,
+    "hot_load_kw": 49.0,
+    "radiator_wings": 4,
+    "area_each_m2": 32,
+    "total_area_m2": 128,
+    "minimum_qualified_net_flux_w_m2": 400,
+    "minimum_capacity_kw": 51.2,
+    "one_bank_out_capacity_kw": 38.400000000000006,
+    "one_bank_out_cold_limit_kw": 27.428571428571434,
+    "one_bank_out_p2_cap_kw": 20,
+    "status": "400 W/m2 is an acceptance threshold under local view, solar and dust conditions; controls derate from measured temperatures and available banks."
+  },
+  "power": {
+    "production_kw": 29,
+    "crew_kw": 6,
+    "thermal_lift_kw": 14,
+    "normal_total_kw": 49,
+    "solar_nameplate_kw": 80,
+    "net_design_fraction": 0.75,
+    "net_generation_kw": 60,
+    "storage_nameplate_kwh": 300,
+    "discharge_efficiency": 0.9,
+    "eol_fraction": 0.8,
+    "usable_kwh": 216.0,
+    "protected_load_kw": 5,
+    "screened_darkness_h": 39,
+    "protected_requirement_kwh": 195,
+    "shutdown_rule": "Production only in verified energy windows; lock out visits without reserve and docked rover. 39 h is the P01 10 m sample, not guaranteed availability."
+  },
+  "product": {
+    "first_assembly_m": [
+      5,
+      10
+    ],
+    "substrate": "25 micrometre polyimide",
+    "al_target_nm": 100,
+    "web_width_m": 2.5,
+    "qualified_rate_m2_h": null,
+    "kinematic_rate_m2_h": 900,
+    "tension_n_m": 50,
+    "areal_mass_kg_m2": 0.03577,
+    "gravity_sag_m": 0.014486850000000003,
+    "thermal_movement_200k_m": 0.04,
+    "tensioner_travel_m": 0.08,
+    "edge_load_n": 500,
+    "joint": "Reinforced edge tapes mechanically clamped to reusable rails; no structural weld of a 100 nm coating.",
+    "scope": "5 x 10 m replaceable non-imaging reflector module; 40 m arrays are future modular assemblies, not a qualified monolithic aperture."
+  },
+  "economics": {
+    "comparator": "Import ready-coated rolls and assemble locally; identical downstream frames and crew infrastructure in both cases.",
+    "planned_area_m2_y": 3000,
+    "ten_year_area_m2": 30000,
+    "al_deposited_kg_at_30000_m2": 8.1,
+    "conclusion": "No demonstrated transport-mass or monetary break-even for new-film metallisation. Lab value is to test selective renewal, cleanliness and reusable assembly before investing in a shared utility."
+  },
+  "mass": {
+    "p2_equipment_kg": 17304.833333333336,
+    "p2_basis": "Revised 128 m2 radiator at 12 kg/m2, 400 kg thermal package and 300 kWh battery at 180 Wh/kg; 25% growth retained. Supplier confirmation is required.",
+    "p3_ribs_kg": 12291.472818290806,
+    "retaining_plate_5mm_kg": 7568.640897962318,
+    "longitudinal_bearers_kg": 3004.1279999999983,
+    "ties_kg": 1582.56,
+    "connections_and_shoes_kg": 2000,
+    "pressure_shell_and_interface_kg": 8627.517143511974,
+    "eclss_and_fitout_allowance_kg": 4300,
+    "initial_cabin_gas_kg": 516.4763434910984,
+    "p3_growth_fraction": 0.3,
+    "external_power_and_cargo_rover_allowance_kg": 10500,
+    "scope": "P3 includes shield support, pressure package, life support, fit-out and initial gas. External allowance covers solar/utility hardware and the pressurized rover; excavation fleet, landers and launch integration remain outside this concept ledger.",
+    "p3_with_growth_kg": 51858.033764233056,
+    "p2_p3_external_allowance_kg": 79662.8670975664
+  }
+}

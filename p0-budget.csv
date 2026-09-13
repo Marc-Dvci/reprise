@@ -1,0 +1,12 @@
+﻿id,description,quantity,unit,unit_eur,base_eur,evidence,scope
+pvd,Coupon PVD,60,h,90,5400,UPV,15 run slots x 4 h: 3 Earth controls + 3 post-exposure batches + 9 renewal slots
+access,Cleanroom access reserve,60,h,108,6480,URV,Conservative separate access provision; reconcile inclusions with chosen provider
+tech,Technical support,60,h,89,5340,URV,"Preparation, handling, apparatus and run support; excludes TVAC operator already included"
+microscopy,Optical microscopy,12,h,60,720,URV,Defect mapping; does not replace calibrated solar reflectance or scatter measurements
+optics,Reflectance/scatter calibration,1,allowance,2000,2000,LVW assumption,Specialist instrument access/calibration allowance; no published compatible service price secured
+tvac,TVAC storage screen,24,staffed h,110,2640,BIRA,3 x 8 h staffed weekday sessions; no unattended night operation assumed
+vibration,Package vibration screen,18,h,50,900,PACKLAB,2 routes x 3 packaging levels x 3 replicates; 1 h per package as a trial protocol
+drops,Package drop screen,6,10-drop group,40,240,PACKLAB,60 drops allocated across packages; exposure profile to be agreed
+analysis,"Protocol, data and review",24,h,103.82,2491.68,URV,"Hourly report tariff used as a labour proxy, not a committed independent reviewer"
+materials,"Film, fixtures and consumables",1,allowance,2500,2500,LVW assumption,"Small coupons, witness carriers, feedstock, package stock and small clamp fixture"
+transfer,Transfers and coordination,1,allowance,1000,1000,LVW assumption,Shipping/travel provision; final supplier geography may increase it

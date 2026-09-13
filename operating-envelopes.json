@@ -1,0 +1,98 @@
+{
+  "status": "Concept operating targets; unoccupied thermal balance and hardware qualification remain to be demonstrated.",
+  "power": {
+    "normal_essential_kw": 5,
+    "unoccupied_target_kw": 4,
+    "cabinet_nameplate_kwh": 50,
+    "efficiency": 0.9,
+    "end_of_life_fraction": 0.8,
+    "reference_darkness_h": 39,
+    "unoccupied_allocations_kw": {
+      "local_battery_and_mechanism_heaters": 2.2,
+      "thermal_circulation_and_controls": 0.7,
+      "avionics_and_communications": 0.6,
+      "pressure_and_environment_monitoring": 0.2,
+      "allocation_margin": 0.3
+    }
+  },
+  "power_cases": [
+    {
+      "available_cabinets": 6,
+      "load_kw": 5,
+      "usable_kwh": 216.0,
+      "autonomy_h": 43.2,
+      "energy_after_39_h_kwh": 21.0
+    },
+    {
+      "available_cabinets": 5,
+      "load_kw": 5,
+      "usable_kwh": 180.0,
+      "autonomy_h": 36.0,
+      "energy_after_39_h_kwh": -15.0
+    },
+    {
+      "available_cabinets": 6,
+      "load_kw": 4,
+      "usable_kwh": 216.0,
+      "autonomy_h": 54.0,
+      "energy_after_39_h_kwh": 60.0
+    },
+    {
+      "available_cabinets": 5,
+      "load_kw": 4,
+      "usable_kwh": 180.0,
+      "autonomy_h": 45.0,
+      "energy_after_39_h_kwh": 24.0
+    }
+  ],
+  "thermal_cases": [
+    {
+      "banks": 4,
+      "net_flux_w_m2": 400,
+      "production_cap_kw": 29,
+      "crew_kw": 6,
+      "cop": 2.5,
+      "hot_load_kw": 49.0,
+      "capacity_kw": 51.2,
+      "margin_kw": 2.200000000000003
+    },
+    {
+      "banks": 3,
+      "net_flux_w_m2": 400,
+      "production_cap_kw": 20,
+      "crew_kw": 6,
+      "cop": 2.5,
+      "hot_load_kw": 36.4,
+      "capacity_kw": 38.4,
+      "margin_kw": 2.0
+    },
+    {
+      "banks": 3,
+      "net_flux_w_m2": 300,
+      "production_cap_kw": 12,
+      "crew_kw": 6,
+      "cop": 2.5,
+      "hot_load_kw": 25.2,
+      "capacity_kw": 28.8,
+      "margin_kw": 3.6000000000000014
+    }
+  ],
+  "exposure": {
+    "visits_per_person_year": 6,
+    "hours_per_visit": 8,
+    "workshop_hours_per_person_year": 48,
+    "workshop_hours_per_person_ten_years": 480,
+    "dose_computed": false
+  },
+  "shield": {
+    "regolith_density_kg_m3": 1600,
+    "crown_m": 2.5,
+    "crown_areal_density_g_cm2": 400,
+    "end_screen_m": 1.4,
+    "end_screen_areal_density_g_cm2": 224,
+    "cheek_m": 1,
+    "cheek_areal_density_g_cm2": 160,
+    "meaning": "Normal paths through specified local sections only; not minimum angular shielding or radiation attenuation."
+  },
+  "mass_basis": "Existing 79.7 t planning ledger retained. Detailed hatches, filter, pump interfaces and end-screen retainers require allocation within pressure, fit-out, thermal and growth budgets; no supplier mass closure claimed."
+}
