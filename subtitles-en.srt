@@ -1,0 +1,47 @@
+1
+00:00:01,100 --> 00:00:05,026
+Living on the Moon needs light and machines that keep working.
+
+2
+00:00:05,026 --> 00:00:09,228
+Reprise brings making and repair to the Moon.
+
+3
+00:00:09,228 --> 00:00:13,962
+Outside, robots use the vacuum to coat reflective films.
+
+4
+00:00:13,962 --> 00:00:17,885
+These surfaces direct sunlight towards the settlement.
+
+5
+00:00:17,885 --> 00:00:23,630
+A covered street links three courts where robots clean, prepare and coat the films.
+
+6
+00:00:23,630 --> 00:00:27,539
+Worn surfaces return along this street for renewal.
+
+7
+00:00:27,539 --> 00:00:32,180
+Inside, beneath protective regolith, people take over.
+
+8
+00:00:32,180 --> 00:00:37,207
+They inspect components and repair the machinery that keeps the settlement working.
+
+9
+00:00:37,207 --> 00:00:43,776
+Where resources are scarce, replacing worn film and reusing frames makes materials last.
+
+10
+00:00:43,776 --> 00:00:49,148
+Workbenches, shared tables and quiet spaces bring people together.
+
+11
+00:00:49,148 --> 00:00:53,377
+The workshop supports a lasting human presence on the Moon.
+
+12
+00:00:53,377 --> 00:00:56,187
+Here, a community cares for what it builds.
